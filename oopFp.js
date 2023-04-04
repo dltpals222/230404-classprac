@@ -16,7 +16,9 @@ const abcde = basicReturnObject('이세민',1234,{name:'이세민',age:11,email:
 const abcdeStringify = JSON.stringify(abcde,true,2);
 
 console.log(abcdeStringify);
+console.log(typeof(abcdeStringify));
 
 const abcdeParse = JSON.parse(abcdeStringify);
 
 console.log(abcdeParse);
+console.log(typeof(abcdeParse));
